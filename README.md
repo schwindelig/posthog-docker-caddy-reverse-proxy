@@ -22,3 +22,8 @@ This will expose your container on `localhost:8080`
 ```powershell
 docker build -t posthog-proxy . && docker run -p 8080:8080 posthog-proxy
 ```
+
+## Pull directly from Docker Hub
+
+For your convenience: https://hub.docker.com/r/schwindelig/posthog-docker-caddy-reverse-proxy
+Note that this is for Posthog EU
