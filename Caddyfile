@@ -1,5 +1,8 @@
 {
     auto_https off
+    servers {
+		trusted_proxies static 169.254.0.0/16
+	}
 }
 
 :8080
